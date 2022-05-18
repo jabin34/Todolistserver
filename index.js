@@ -59,40 +59,7 @@ async function run(){
 run().catch(console.dir);
 
 
-// client.connect(err => {
-//   const collection = client.db("test").collection("devices");
-//   console.log('mongo connectd');
-//   // perform actions on the collection object
-//   client.close();
-// });
 
-// async function run(){
-//     try{
-//      await client.connect();
-//      const taskcollection = client.db("todoapp").collection("tasklist");
-//       console.log('connected to mongo');
-// //     app.post('/addtask',async(req,res)=>{
-// //         const task = req.body;
-// //         const result = await taskcollection.insertOne(task);
-// //         res.send(result);
-// //     });
-//  }finally{
-
-//  }
-//  }
-//  run().catch(console.dir);
-
-//  client.connect();
-//   const taskcollection = client.db("todo").collection("tasklist");
-//   console.log('connected to mongo');
-
-
-// app.post('/addtask',async(req,res)=>{
-//     const task = req.body;
-//     console.log(task);
-//     const result = await taskcollection.insertOne(task);
-//     res.send(result);
-// });
 
 
 
